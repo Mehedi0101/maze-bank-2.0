@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+    document.title = 'Welcome to Maze Bank';
     const navigate = useNavigate();
     const handleEnterSite = () => navigate('/login');
     return (

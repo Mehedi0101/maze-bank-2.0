@@ -6,6 +6,7 @@ import { createUserWithEmailAndPassword, sendEmailVerification, updateProfile } 
 import auth from '../firebase/firebase.config'
 
 const Register = () => {
+    document.title = 'Register';
 
     const [showPassword, setShowPassword] = useState(false);
     const [nameError, setNameError] = useState('');

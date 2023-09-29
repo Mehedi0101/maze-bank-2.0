@@ -7,6 +7,7 @@ import auth from "../firebase/firebase.config";
 import { UserDataContext } from "../layout/MainLayout";
 
 const Login = () => {
+    document.title = 'Login';
     const [showPassword, setShowPassword] = useState(false);
 
     const [firebaseError, setFirebaseError] = useState('');
