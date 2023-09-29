@@ -45,7 +45,7 @@ const Register = () => {
                 sendEmailVerification(auth.currentUser)
                     .then(() => { })
                     .catch()
-                updateProfile(auth.currentUser, { displayName: { name }, photoURL: "" })
+                updateProfile(auth.currentUser, { displayName: name, photoURL: "" })
                     .then(() => {
 
                     })
